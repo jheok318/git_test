@@ -214,45 +214,38 @@ jun_heok (3):
    
    + git hub에서 master라고 적혀 있는 부분을 클릭한다.
    + 이후 branch를 선택하거나 원하는 브랜치를 생성해준다.
-
-   <img src="img/branch01.png" alt="branch01" style="zoom:80%;" />
-
-   + issue2를 생성해보자
-   + issue2가 생성 됨을 확인할수 있다.
-
-   <img src="img/branch02.png" alt="branch02" style="zoom:90%;" />
++ <img src="img/branch01.png" alt="branch01" style="zoom:80%;" />
    
++ issue2를 생성해보자
+   + issue2가 생성 됨을 확인할수 있다.
+   + <img src="img/branch02.png" alt="branch02" style="zoom:90%;" />
+
 2. **수정후 commit 하기**  
 
    - Readme.md 파일을 수정해보고 커밋을 해주면 이 파일은 master와 다른 파일을 가지고 있다.
    - squash merge를 사용해 보기 위해 issue2를 한번더 수정하고 커밋 해주었다.
-
-<img src="img/branch03.png" alt="image-20200626143835188" style="zoom:80%;" />
+   - <img src="img/branch03.png" alt="image-20200626143835188" style="zoom:80%;" />
 
 3. **Pull Request 열기**
    - issue2 branch 에서 수정한 Readme.md 파일을 master branch에 branch를 합치기 위해 PR을 이용한다.
-
-<img src="img/branch04.png" alt="image-20200626144320577" style="zoom: 50%;" />
+   - <img src="img/branch04.png" alt="image-20200626144320577" style="zoom: 50%;" />
 
    - Pull request를 선택후 New를 선택해 준다
-
-<img src="img/branch05.png" alt="image-20200626145031633" style="zoom: 67%;" />
+   - <img src="img/branch05.png" alt="image-20200626145031633" style="zoom: 67%;" />
 
    - compare에 issue2를 선택하고 base를 master로 선택해준다
    - 이후 스크롤을 내려보면 아래 수정된 내용들이 나오게 된다 이상이 없다면 create pull request를 눌러준다
    - PR의 제목과 수정사항에 대한 설명 혹은 변경사항등을 작성한후 create해준다
-
-<img src="img/branch06.png" alt="image-20200626145534425" style="zoom:67%;" />
+   - <img src="img/branch06.png" alt="image-20200626145534425" style="zoom:67%;" />
 
 4. Merge Pull Request
 
    - 원하는 Merge 방식을 선택해주면 merge가 완료 된다.
-
-    <img src="img/branch07.png" alt="image-20200626145746203" style="zoom:67%;" />
+-  <img src="img/branch07.png" alt="image-20200626145746203" style="zoom:67%;" />
    
    - sqush - merge방식을 사용 하였는데 이가 잘되었는지 확인해보자
+   - <img src="img/branch08.png" alt="image-20200626145746203" style="zoom: 80%;" />
 
-	<img src="img/branch08.png" alt="image-20200626145746203" style="zoom: 80%;" />
 
 <hr/>
 
@@ -279,8 +272,7 @@ jun_heok (3):
    ```
 
    - -t 옵션과 원격 저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout을 한다.
-
-<img src="img/remote_branch01.png" alt="image-20200626154104380" style="zoom:80%;" />
+   - <img src="img/remote_branch01.png" alt="image-20200626154104380" style="zoom:80%;" />
 
 _issue2 branch를 저장소에서 가져오고 현재 issue2의 branch상태를 확인해 보았고 issue2의 branch가  local branch에 추가 됨을 확인할수 있다._
 
