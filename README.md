@@ -247,8 +247,7 @@ jun_heok (3):
 
 	<img src="img/branch08.png" alt="image-20200626145746203" style="zoom: 80%;" />
 
-issue2의 내용에 추가 하였습니다
-issue2에서 내용을 또 추가 하였습니다
+
 
 
 
