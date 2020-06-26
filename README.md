@@ -99,22 +99,34 @@ Git & Git hub
   ![image-20200625173627537](img/branch.png)
   
   + 여러 사람과 작업하고 자신만의 작업을 원할때 즉, 독립적 작업을  할 때 사용한다.
+  
   + 새로운 브랜치를 만들고 자신만의 변경사항등의 커밋 타임라인을 만든다.
+  
   + 동시에 여러 작업을 진행할 수 있다.
+  
   + 이렇게 동시에 작업한 branch들을 나중에 merge할 수 있다.
+  
   + newbranch라는 새로운 branch를 생성한다.
+  
+```
+    git branch newbranch
+```
 
-```
-  git branch newbranch
-```
+  + **branch 참고사항**
+      + branch의 종류는 5가지가 존재한다
+      + master : 제품으로 출시될 수 있는 브랜치
+      + develop : 다음 출시 버전을 개발하는 브랜치
+      + feature : 기능을 개발하는 브랜치
+      + release : 이번 출시 버전을 준비하는 브랜치
+      + hotfix : 출시 버전에서 발생한 버그를 수저하는 브랜치
+
 
 + **Master branch**
-+ Master branch란 처음 저장소를 만들 때 생성되는 branch
+  + Master branch란 처음 저장소를 만들 때 생성되는 branch
   + 새로운 파일을 추가하거나 변경 시 그 내용을 저장하는 곳은 모두 master branch를 통해 merger한다.
-  
-+ **merge**
 
-  + 브랜치에서 작업을 끝내고, 모든 협업자가 볼수 있는 master 브랜치로 병합한다.
++ **merge**
++ 브랜치에서 작업을 끝내고, 모든 협업자가 볼수 있는 master 브랜치로 병합한다.
 
 ```
   git merge
@@ -272,15 +284,16 @@ jun_heok (3):
 
    - -t 옵션과 원격 저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout을 한다.
 
+<img src="img/remote_branch01.png" alt="image-20200626154104380" style="zoom:80%;" />
 
+_issue2 branch를 저장소에서 가져오고 현재 issue2의 branch상태를 확인해 보았고 issue2의 branch가  local branch에 추가 됨을 확인할수 있다._
 
+<hr/>
 
+## 종합
 
-
-
-
-
-
-
-
-
+1. local에서 git을 통해 github와 연동을 한다.
+2. github에서 fork를 통해 원하는 다른 사람의 repository를 내 repository로 가져온다.
+3. github의 insight => network를 통해 현재 branch 상태를 확인한 후 원하는 remote branch를 내 local repository로 가져온다. 
+4. 내 local에서 작업후 push를 통해 해당 branch를 업데이트 시켜준다. 
+5. PR을 통해 수정된 branch를 squash merge를 이용하여 업데이트 시켜준다.
