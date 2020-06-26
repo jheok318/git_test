@@ -43,7 +43,7 @@ Git & Git hub
 ###### _Remote Repository에는 README.md 파일만 있다고 가정_
 
 + **init**
-+ 깃 저장소를 초기화한다. 저장소나 디렉토리 안에서 이 명령을 실행하기 전까지는 그냥 일반 폴더이다.
+  + 깃 저장소를 초기화한다. 저장소나 디렉토리 안에서 이 명령을 실행하기 전까지는 그냥 일반 폴더이다.
 
 ```
   git init
@@ -151,7 +151,7 @@ Git & Git hub
 ## Git commit  message의 규칙 및 사용시 도움이 될만한 것들
 
 1. **제목과 본문을 빈행으로 분리한다.**
-+ 필수 사항은 아니다.
+   + 필수 사항은 아니다.
    + 한줄만 작성해도 괜찮은 경우들이 존재한다.
    + 제목과 본문 사이에 공백을 넣으면 로그를 확인 할때 어떤 경우라도 제목과 본문을 출력해준다.
 
@@ -170,31 +170,31 @@ jun_heok (3):
 
 
 2. **제목 행을 50자로 제한한다.**
-+ 제목 행을 50자로 작성하는 것은 강제로 제한 하는것은 아니다.
+   + 제목 행을 50자로 작성하는 것은 강제로 제한 하는것은 아니다.
    + GitHub UI는 50자 이상을 입력하려고 하면 경고 표시가 나타난다.
    + ![image-20200626091824456](img/commit50.png)
    
 3. **제목 행 첫 글자는 대문자로 쓴다**
-+ 제목 행에서의 모든 단어는 대문자로 시작함을 생각하자
+   + 제목 행에서의 모든 단어는 대문자로 시작함을 생각하자
    + readme.md file change.  =>  Readme.md file change.
    
 4. **제목 행에 명령문을 사용한다.**
-+ 명령이나 설명하듯 제목 행을 작성해준다.
+   + 명령이나 설명하듯 제목 행을 작성해준다.
    + Git 자체는 우리 대신 자동으로 커밋을 생성하는 경우, 명령조로 사용을 한다.
    + 이는 제목 행에서만 생각을 하며 본문을 쓸때는 생각할 필요 없다.
    + Readme.md file change. => Change readme.md file.
    
 5.  **제목 행 끝에 마침표를 넣지 않는다.**
-+ 제목 행 끝에는 마침표가 필요없다. 50자 미만의 규칙을 따르면 한 공간도 필요로 하다.
+   + 제목 행 끝에는 마침표가 필요없다. 50자 미만의 규칙을 따르면 한 공간도 필요로 하다.
    + Change readme.md file. => Change readme.md file
    
 6. **본문은 72자 기준으로 개행한다.**
-+ Git은 본문을 자동으로 개행하지 않는다.
+   + Git은 본문을 자동으로 개행하지 않는다.
    + 커밋 메세지 본문을 적을 땐 본문 우측 여백을 신경쓰며 작성해야 하고, 본문을 정해진 대로손수 개행 해야 한다
    + 72자 기준으로 개행을 하면 전체 80자 공간중 Git이 들여쓰기 문자를 위해 여유 문자를 가질 수 있다.
    
 7. **어떻게 보다 무엇과 왜를 쓴다.**
-+ 대부분은 어떻게 바뀌었는지를 남긴다.
+   + 대부분은 어떻게 바뀌었는지를 남긴다.
    + 하지만 왜 바꾸었는지에 주목을 해보면 바꾸기전에 무엇을 했는지(무엇이 잘못 동작 했는지)
    + 지금은 어떻게 동작하는지 그리고 왜 그렇게 바꾸기로 했는지를 중점적으로 적어주는 것이 좋다.
 
@@ -222,17 +222,17 @@ jun_heok (3):
 <img src="img/branch03.png" alt="image-20200626143835188" style="zoom:80%;" />
 
 3. **Pull Request 열기**
-- issue2 branch 에서 수정한 Readme.md 파일을 master branch에 branch를 합치기 위해 PR을 이용한다.
+   - issue2 branch 에서 수정한 Readme.md 파일을 master branch에 branch를 합치기 위해 PR을 이용한다.
 
 <img src="img/branch04.png" alt="image-20200626144320577" style="zoom: 50%;" />
 
-- Pull request를 선택후 New를 선택해 준다
+   - Pull request를 선택후 New를 선택해 준다
 
 <img src="img/branch05.png" alt="image-20200626145031633" style="zoom: 67%;" />
 
-- compare에 issue2를 선택하고 base를 master로 선택해준다
-- 이후 스크롤을 내려보면 아래 수정된 내용들이 나오게 된다 이상이 없다면 create pull request를 눌러준다
-- PR의 제목과 수정사항에 대한 설명 혹은 변경사항등을 작성한후 create해준다
+   - compare에 issue2를 선택하고 base를 master로 선택해준다
+   - 이후 스크롤을 내려보면 아래 수정된 내용들이 나오게 된다 이상이 없다면 create pull request를 눌러준다
+   - PR의 제목과 수정사항에 대한 설명 혹은 변경사항등을 작성한후 create해준다
 
 <img src="img/branch06.png" alt="image-20200626145534425" style="zoom:67%;" />
 
@@ -245,6 +245,38 @@ jun_heok (3):
    - sqush - merge방식을 사용 하였는데 이가 잘되었는지 확인해보자
 
 	<img src="img/branch08.png" alt="image-20200626145746203" style="zoom: 80%;" />
+
+<hr/>
+
+## git remote branch가져오기
+
+1. 원격의 branch에 접근하기 위해 git remote를 갱신해준다
+
+   ```
+   git remote update
+   ```
+
+2.  원격 저장소 branch 확인법
+
+   ```
+   git branch -r or git branch -a
+   ```
+
+3.  원격 저장소의 branch 가져오기
+
+   - origin/issue2 branch를 가져오고 싶을때 사용법
+
+   ```
+   git checkout -t origin/issue2
+   ```
+
+   - -t 옵션과 원격 저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout을 한다.
+
+
+
+
+
+
 
 
 
