@@ -215,7 +215,7 @@ jun_heok (3):
    + git hub에서 master라고 적혀 있는 부분을 클릭한다.
    + 이후 branch를 선택하거나 원하는 브랜치를 생성해준다.
 + <img src="img/branch01.png" alt="branch01" style="zoom:80%;" />
-   
+  
 + issue2를 생성해보자
    + issue2가 생성 됨을 확인할수 있다.
    + <img src="img/branch02.png" alt="branch02" style="zoom:90%;" />
@@ -275,6 +275,19 @@ jun_heok (3):
    - <img src="img/remote_branch01.png" alt="image-20200626154104380" style="zoom:80%;" />
 
 _issue2 branch를 저장소에서 가져오고 현재 issue2의 branch상태를 확인해 보았고 issue2의 branch가  local branch에 추가 됨을 확인할수 있다._
+
+<hr/>
+
+## .gitignore
+
+- Project에 원하지 않는 Backup File이나 Log File, 혹은 컴파일 된 파일들을 Git 에서 제외 시킬수 있는 설정 File이다.
+- window에서도 확장자 명이 없는 파일 생성이 가능하다. ex) .gitignore.
+- 항상 최상위 Directory에 존재해야 한다.
+- ![image-20200626170706248](img/ignore.png)
+- 예시에서는 .log, .bak파일을 제외시킨다
+- 적용법은 .gitignore파일을 같이 push하면 된다.
+
+
 
 <hr/>
 
