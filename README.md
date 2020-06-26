@@ -222,18 +222,17 @@ jun_heok (3):
 <img src="img/branch03.png" alt="image-20200626143835188" style="zoom:80%;" />
 
 3. **Pull Request 열기**
-
-   - issue2 branch 에서 수정한 Readme.md 파일을 master branch에 branch를 합치기 위해 PR을 이용한다.
+- issue2 branch 에서 수정한 Readme.md 파일을 master branch에 branch를 합치기 위해 PR을 이용한다.
 
 <img src="img/branch04.png" alt="image-20200626144320577" style="zoom: 50%;" />
 
-   - Pull request를 선택후 New를 선택해 준다
+- Pull request를 선택후 New를 선택해 준다
 
-<img src="C:\Users\mobigen\AppData\Roaming\Typora\typora-user-images\image-20200626145031633.png" alt="image-20200626145031633" style="zoom: 67%;" />
+<img src="img/branch05.png" alt="image-20200626145031633" style="zoom: 67%;" />
 
-   - compare에 issue2를 선택하고 base를 master로 선택해준다
-   - 이후 스크롤을 내려보면 아래 수정된 내용들이 나오게 된다 이상이 없다면 create pull request를 눌러준다
-   - PR의 제목과 수정사항에 대한 설명 혹은 변경사항등을 작성한후 create해준다
+- compare에 issue2를 선택하고 base를 master로 선택해준다
+- 이후 스크롤을 내려보면 아래 수정된 내용들이 나오게 된다 이상이 없다면 create pull request를 눌러준다
+- PR의 제목과 수정사항에 대한 설명 혹은 변경사항등을 작성한후 create해준다
 
 <img src="img/branch06.png" alt="image-20200626145534425" style="zoom:67%;" />
 
