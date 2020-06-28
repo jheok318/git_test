@@ -8,7 +8,8 @@ Git & Git hub
 2. 계정을 생성후 repository를 생성해주면 code부분에 setup을 하는 방법이 나와있다
 
 <hr/>
-## Git의 Gitbuh 자동 로그인 
+
+## Git의 Github 자동 로그인 
 
 1. 이중 ssh를 이용하여 매번 git push를 할때 아이디 비밀번호를 입력할 필요 없게 설정을 해준다
 
