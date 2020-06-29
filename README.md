@@ -288,9 +288,6 @@ _issue2 branch를 저장소에서 가져오고 현재 issue2의 branch상태를 
 - 예시에서는 .log, .bak파일을 제외시킨다
 - 적용법은 .gitignore파일을 같이 push하면 된다.
 
-issue2의 내용에 추가 하였습니다
-issue2에서 내용을 또 추가 하였습니다
-
 
 
 <hr/>
