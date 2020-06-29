@@ -88,7 +88,7 @@ Git & Git hub
 
 + **pull**
 
-  + Remote Repository에 있는 README.md를 Remote Repository로 올려준다.
+  + Remote Repository에 있는 README.md를 Local Repository로 가져온다.
   + origin repository에서 변경 사항을 가져와 현재 branch에 합친다.
 
 ```
